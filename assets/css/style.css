@@ -121,4 +121,9 @@ body {
   background-color: rgb(245, 0, 0);
 }
 
+.btn {
+  background-color: beige;
+  color: red;
+}
+
 /*# sourceMappingURL=style.css.map */
