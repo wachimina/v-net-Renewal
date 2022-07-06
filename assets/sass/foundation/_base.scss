@@ -1,0 +1,12 @@
+@use '../global/' as *;
+
+html { line-height: 1; font-size: 62.5%; }
+body {
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    line-height: 1.5;
+    word-break: normal;
+    word-wrap: break-word;
+    -webkit-text-size-adjust: 100%;
+    font-size: 1.6rem;
+    letter-spacing: 0.1em;
+}
