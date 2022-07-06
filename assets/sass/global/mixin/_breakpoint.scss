@@ -1,0 +1,48 @@
+$xl: 1400px; // 大型PC
+$lg: 1200px; // 中型PC
+$ml: 1080px; // 小型PC
+$pc: 960px; // 小型PC
+$tab: 750px; // タブレット
+$sp: 560px; // スマホ(iphone6)
+$xs: 320px; // スマホ(iphoneSE)
+
+@mixin xl {
+  @media (min-width: ($xl)) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: ($lg)) {
+    @content;
+  }
+}
+@mixin ml {
+  @media (min-width: ($ml)) {
+    @content;
+  }
+}
+@mixin pc {
+  @media (min-width: ($pc)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media (min-width: ($tab)) {
+    @content;
+  }
+}
+@mixin tabIn {
+  @media (min-width: (768px)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (min-width: ($sp)) {
+    @content;
+  }
+}
+@mixin xs {
+  @media (max-width: ($xs)) {
+    @content;
+  }
+}
